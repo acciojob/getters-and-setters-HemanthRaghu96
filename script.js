@@ -1,8 +1,8 @@
 //complete this code
 class Person {
-  constructor(myName, myAge) {
-    this.myName = myName;
-    this.myAge = myAge;
+  constructor(name, age) {
+    this.myName = name;
+    this.myAge = age;
   }
   get name() {
     return this.myName;
@@ -37,6 +37,7 @@ const student = new Student("Alice", 22);
 student.study();
 const teacher = new Teacher("Bob", 40);
 teacher.teach();
+
 
 // Do not change the code below this line
 window.Person = Person;
